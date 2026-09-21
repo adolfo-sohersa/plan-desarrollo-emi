@@ -51,23 +51,23 @@ Este archivo comprueba lo que aprendiste en el bloque 1. La forma de entregarlo 
 
 **6. Modificaste un archivo, todavía no has hecho `add`, y te arrepentiste. Quieres que quede exactamente como estaba en el último commit. ¿Qué comando usas?**
 
-> _Tu respuesta aquí_
+>Git restore
 
 **7. Hiciste `git add` a un archivo que no querías incluir, pero todavía no haces commit. ¿Cómo lo sacas sin perder los cambios del archivo?**
 
-> _Tu respuesta aquí_
+>git reset HEAD nombre-del-archivo
 
 **8. Hiciste un commit con el mensaje `asdf`. Todavía no haces push. ¿Cómo lo corriges?**
 
-> _Tu respuesta aquí_
+>git commit --amend
 
 **9. Ahora imagina que ese commit con `asdf` ya lo subiste con push, y otras personas ya descargaron el repositorio. ¿Sigue siendo buena idea usar `--amend`? ¿Por qué?**
 
-> _Tu respuesta aquí_
+>git commit -m "Corrige mensaje o cambios de asdf"
 
 **10. Haces `git push` y Git lo rechaza con un mensaje que dice que el remoto tiene cambios que tú no tienes. No te ha pasado todavía, así que razónalo: ¿qué crees que pasó y qué harías?**
 
-> _Tu respuesta aquí_
+>git pull
 
 **11. Abres un archivo después de un merge y ves esto. Explica qué significa cada parte y qué tienes que hacer para terminar el merge.**
 
@@ -79,11 +79,11 @@ La torre tiene 14 niveles.
 >>>>>>> actualizar-datos
 ```
 
-> _Tu respuesta aquí_
+>Es un conflicto de merge en Git, las marcas indican las dos versiones diferentes del archivo, HEAD es la version actual y actualizar-datos es la version de la otra rama, Para terminar, debes elegir que version conservar, borrar las marcas del conflicto, guardar el archivo y hacer git add y git commit.
 
 **12. Tienes un archivo `claves.txt` con una contraseña. (a) ¿Cómo evitas que Git lo suba? (b) Si ya lo subiste por error, ¿basta con borrarlo y hacer un commit nuevo? ¿Por qué?**
 
-> _Tu respuesta aquí_
+>agregandolo al archivo .gitignore pero si ya se subio, borrar el archivo no elimina la contraseña del historial de Git. Hay que eliminarla tambien del historial y cambiar la contraseña por seguridad.
 
 ---
 
