@@ -96,16 +96,19 @@ git log --oneline --graph -10
 ```
 
 ```
-pega aquí la salida
+ 62c5e33 (HEAD -> evaluacion-bloque-1) B
+* 3f3c9b1 A
+* ddf553d (origin/main, origin/HEAD, main) Add files via upload
+* 8ce04bd Initial commit
 ```
 
 Explica en una línea qué muestra el dibujo de la izquierda.
 
-> _Tu respuesta aquí_
+>No sale nada bro
 
 **14. Pega la liga al pull request donde resolviste el conflicto en tu repositorio `bitacora-txdx`, y el código corto (hash) del commit de merge.**
 
-> _Tu respuesta aquí_
+>github.com/emitostado/bitacora-txdx/pull/1
 
 ---
 
