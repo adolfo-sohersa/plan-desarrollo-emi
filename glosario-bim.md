@@ -1,63 +1,46 @@
 # Glosario BIM · Sohersa
 
-Glosario de términos que usamos en el día a día. Es un documento vivo: se corrige y crece.
-
-## Instrucciones para esta tarea
-
-Este glosario tiene problemas a propósito. Tu tarea es dejarlo bien, en una rama nueva y con un pull request aparte del de la evaluación.
-
-1. Crea una rama llamada `corregir-glosario` **a partir de `main`**, no de la rama de la evaluación.
-2. **Contenido:** hay **cinco definiciones con errores**. Encuéntralas y corrígelas.
-3. **Pendientes:** hay cuatro términos que dicen _Pendiente_. Escríbelos.
-4. **Formato:** los términos están escritos de dos formas distintas. Unifícalos todos como encabezado `###`, y ordénalos alfabéticamente.
-5. Haz **un commit por cada tipo de cambio**: uno para las correcciones, uno para los pendientes y uno para el formato.
-6. Abre el PR hacia `main`. En la descripción, para cada una de las cinco correcciones escribe: qué decía, qué pusiste y **de dónde sacaste la información** (liga o persona del equipo a quien le preguntaste).
-7. Cuando termines, borra esta sección de instrucciones. Es parte del cambio.
-
-Sin IA. Puedes usar documentación oficial (buildingSMART, ISO, ayuda de Autodesk, BIMForum) y preguntarle al equipo BIM, que es la mejor fuente.
-
+Glosario de términos que usamos en el día a día. Es un documento vivo: se corrige y crece.           
 ---
 
-### Familia (Revit)
-
-Grupo de elementos con un conjunto común de parámetros y una representación gráfica relacionada. Por ejemplo, una familia de puertas puede tener varios tipos con distintas medidas. En Revit hay familias de sistema, cargables e in situ.
-
-**IFC**: Formato de archivo propietario de Autodesk que solo se puede abrir en Revit. Se usa para mandar modelos entre oficinas que trabajan con la misma versión del programa.
-
-### LOD
-
-Level of Detail. Indica qué tan detallado se ve un elemento en el modelo: entre más alto el LOD, más líneas tiene y más realista se ve el dibujo.
-
-**Detección de interferencias**: Proceso de revisar un modelo federado para encontrar elementos que chocan entre sí o que no respetan espacios mínimos, por ejemplo un ducto que atraviesa una viga. En inglés se le dice _clash detection_. Se hace con herramientas como Navisworks.
+### BEP
+BIM Execution Plan (Plan de Ejecución BIM). Documento que define cómo se gestionarán la información y los entregables BIM a lo largo de un proyecto, especificando roles, procesos, estándares y tecnologías a utilizar.
 
 ### CDE
+Common Data Environment (Entorno Común de Datos). Espacio de información centralizado y estructurado donde se recopila, gestiona y difunde toda la documentación y datos del proyecto de forma colaborativa y controlada, conforme a la norma ISO 19650 (ej. Autodesk Construction Cloud, BIM 360), no una simple carpeta compartida de almacenamiento en la nube.
 
-Common Data Environment. Es la carpeta compartida en Drive donde el equipo guarda los archivos del proyecto.
+### coDrafter
+Automatización de Sohersa para la producción documental en Revit: crea y configura vistas, arma láminas, distribuye vistas en la lámina, etiqueta y acota.
+
+### Detección de interferencias
+Proceso de revisar un modelo federado para encontrar elementos que chocan entre sí o que no respetan espacios mínimos, por ejemplo un ducto que atraviesa una viga. En inglés se le dice *clash detection*. Se hace con herramientas como Navisworks.
 
 ### Dimensiones BIM
+Representan los diferentes niveles de información integrados al modelo: 3D es el modelo geométrico; 4D integra el tiempo/programación de obra; 5D integra el análisis de costos y presupuestos.
 
-3D es el modelo geométrico. 4D le agrega los costos del proyecto. 5D le agrega la programación de obra en el tiempo.
+### Familia (Revit)
+Grupo de elementos con un conjunto común de parámetros y una representación gráfica relacionada. Por ejemplo, una familia de puertas puede tener varios tipos con distintas medidas. En Revit hay familias de sistema, cargables e in situ.
 
-**coDrafter**: Automatización de Sohersa para la producción documental en Revit: crea y configura vistas, arma láminas, distribuye vistas en la lámina, etiqueta y acota.
-
-**Nube de puntos**: Conjunto de millones de puntos con coordenadas, medidos con escáner láser o fotogrametría, que representa un espacio que ya existe. Se usa como base para modelar condiciones actuales.
+### IFC
+Industry Foundation Classes. Formato estándar, abierto y neutral (no propietario) desarrollado por buildingSMART para facilitar la interoperabilidad entre diferentes programas de software BIM (OpenBIM), sin importar la plataforma que se utilice.
 
 ### ISO 19650
+Norma internacional que define los principios y requisitos de gestión de la información durante el ciclo de vida de un activo utilizando el Modelado de Información de la Construcción (BIM), abarcando la organización, procesos y el entorno común de datos (CDE).
 
-Norma internacional que define los estándares de dibujo arquitectónico: grosores de línea, escalas y formato de láminas.
-
-### Plantilla de vista
-
-Conjunto de propiedades guardadas (escala, nivel de detalle, visibilidad de categorías, filtros) que se aplica a varias vistas para que todas se vean igual.
-
-**BEP**: _Pendiente_
+### LOD
+Level of Development (Nivel de Desarrollo). Especifica el grado de fiabilidad, detalle y claridad de la información (tanto geométrica como no geométrica) de un elemento del modelo a lo largo de las distintas fases del proyecto, según los estándares de BIMForum.
 
 ### Modelo federado
+Modelo BIM combinado que integra múltiples modelos disciplinares independientes (arquitectura, estructura, MEP, etc.) en un único espacio de coordinación sin modificar las fuentes originales.
 
-_Pendiente_
-
-**Worksharing**: _Pendiente_
+### Nube de puntos
+Conjunto de millones de puntos con coordenadas, medidos con escáner láser o fotogrametría, que representa un espacio que ya existe. Se usa como base para modelar condiciones actuales.
 
 ### Parámetro compartido
+Definición de parámetro que se guarda en un archivo de texto independiente y puede añadirse a múltiples familias o proyectos. Permite extraer datos en tablas de planificación y etiquetar información en Revit.
 
-_Pendiente_
+### Plantilla de vista
+Conjunto de propiedades guardadas (escala, nivel de detalle, visibilidad de categorías, filtros) que se aplica a varias vistas para que todas se vean igual.
+
+### Worksharing
+Trabajo compartido en Revit. Metodología que permite a múltiples usuarios trabajar simultáneamente en un mismo modelo central a través de subproyectos (worksets).
