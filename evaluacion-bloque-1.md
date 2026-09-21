@@ -116,4 +116,4 @@ Explica en una línea qué muestra el dibujo de la izquierda.
 
 **15. ¿Qué fue lo que más te costó del bloque 1 y por qué? Si lo volvieras a hacer desde cero, ¿qué harías distinto?**
 
-> _Tu respuesta aquí_
+>lo que mas me costo fue como regresarme a las ramas hechas y como crear los commits, porq se me olvidaban los comandos y tenia q estar checandolos constantemente.
