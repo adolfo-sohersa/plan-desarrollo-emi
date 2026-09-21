@@ -1,23 +1,3 @@
-# Evaluación · Bloque 1
-
-Este archivo comprueba lo que aprendiste en el bloque 1. La forma de entregarlo también es parte de la evaluación: vas a trabajar en una rama, hacer commits separados y mandar un pull request que alguien más revisa.
-
-## Instrucciones
-
-1. Clona este repositorio y crea una rama llamada `evaluacion-bloque-1`.
-2. Contesta cada pregunta abajo de ella, reemplazando el texto _Tu respuesta aquí_. No borres las preguntas.
-3. Haz **un commit por sección** (A, B, C y D). Son cuatro commits en total, cada uno con un mensaje que diga qué sección contestaste.
-4. Sube la rama y abre un pull request hacia `main` con el título `Evaluación bloque 1`. En la descripción del PR escribe cuánto tiempo te tomó y cuál pregunta te costó más.
-5. **No hagas merge tú.** Espera la revisión. Es probable que te pidan cambios; los haces en la misma rama y los subes, y el PR se actualiza solo.
-
-## Reglas
-
-- Secciones A y B: **sin Google, sin IA, sin tus notas.** Contesta con lo que sabes. Si no sabes algo, escribe qué crees y por qué. Una respuesta razonada e incompleta vale más que una perfecta copiada.
-- Sección C: necesitas correr comandos. Ahí sí puedes usar la terminal.
-- Todo con tus palabras. Respuestas cortas están bien: dos a cinco líneas por pregunta es suficiente.
-
----
-
 ## A · Conceptos
 
 **1. ¿Cuál es la diferencia entre Git y GitHub? ¿Podrías usar uno sin el otro?**
