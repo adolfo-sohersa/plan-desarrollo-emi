@@ -22,23 +22,28 @@ Este archivo comprueba lo que aprendiste en el bloque 1. La forma de entregarlo 
 
 **1. ¿Cuál es la diferencia entre Git y GitHub? ¿Podrías usar uno sin el otro?**
 
-> _Tu respuesta aquí_
+>Git es un sistema de control donde ves los proyectos, ramas y cambios q puedes hacer en ellos.
+>GitHub es una pagina en internet donde puedes visualizar los proyectos de mejor manera y asi compartiendolos y publicandolos.
 
 **2. ¿Cuál es la diferencia entre guardar un archivo, hacer commit y hacer push? ¿Dónde vive el cambio después de cada uno?**
 
-> _Tu respuesta aquí_
+>Almacena la informacion.
+>Tomas los cambios seleccionados y los registra como una version local de git.
+>Envia los commits del repositorio local al remoto en la pagina.
+>El cambio vive en las acciones entre cada uno como las intersecciones que comparten.
+
 
 **3. `git add` y `git commit` son dos pasos separados. ¿Por qué? ¿Qué ganas con que no sean uno solo?**
 
-> _Tu respuesta aquí_
+>Son pasos separados porque introducen el concepto del area de formas diferentes.
 
 **4. ¿Qué es una rama? ¿Por qué no conviene trabajar directo en `main`?**
 
-> _Tu respuesta aquí_
+>Una rama es donde puedes ir arreglando o agregando informacion de muchas maneras sin afectar a los demas y sirve 1 para compartir ideas y no equivcarse con los demas q trabajan en ese pryecto y 2 por si sale algun tipo de bug q solo se vea afectada esa rama y no todo el proyecto desde main.
 
 **5. En tu propio repositorio podías hacer merge sin abrir un pull request. ¿Entonces para qué sirve un PR?**
 
-> _Tu respuesta aquí_
+>Por si encuentras un error a tiempo intentar cambiarlo sin hacer pr ya que si lo haces y no existiese un pr automaticamente se veria afectado tu proyecto, en cambio al hacer pr estarias aceptando tando el error como identifacando el erro a tiempo.
 
 ---
 
